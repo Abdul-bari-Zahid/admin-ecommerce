@@ -1,0 +1,55 @@
+#editProductContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#editProductBox{
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#editProductBox form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+#editProductBox form .inputBox{
+    width: 100%;
+}
+#editProductBox form .inputBox label{
+    color: rgb(7, 7, 7);
+    font-size: 0.9rem;
+}
+#editProductBox form .inputs{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(187, 179, 179);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#editProductBox form .inputBox .mainImage{
+    width: 100px;
+    margin-top: 10px;
+}
+#editProductBox form .saveBtn{
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(184, 24, 24);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}

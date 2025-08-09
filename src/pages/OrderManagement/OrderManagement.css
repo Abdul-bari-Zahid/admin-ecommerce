@@ -1,0 +1,59 @@
+#orderManagementContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#orderManagementContainer #orderTable{
+    width: 60%;
+    border-collapse: collapse;
+}
+#orderManagementContainer table thead tr th{
+    text-align: left;
+    font-size: 1rem;
+    padding: 10px 30px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+}
+#orderManagementContainer table tbody tr:nth-child(even){
+    background-color: rgb(240, 240, 240);
+}
+#orderManagementContainer table tbody tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+#orderManagementContainer table tbody tr:hover{
+    background-color: rgb(206, 206, 206);
+}
+#orderManagementContainer table tbody tr td{
+    padding: 10px 30px;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+}
+#orderedProductImage{
+    width: 80px;
+}
+#orderAction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.actionBtn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+}
+#cancelBtn{
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    color: white;
+}
+#readyToShipBtn{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+}

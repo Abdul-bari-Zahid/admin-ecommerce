@@ -1,0 +1,42 @@
+#dashboardContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#dashboardContainer .dashboardBox{
+    width: 220px;
+    height: 330x;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(10, 10, 10);
+    border-bottom: inset 5px #000000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.dashboardBox .totalIcons{
+    font-size: 3rem;
+    color: #000000;
+}
+.dashboardBox .totalText p{
+    color: #000000;
+    font-size: 1rem;
+}
+.dashboardBox .totalText h1{
+    color: #000000;
+}
+.fakeChart{
+    width: 80%;
+    height: 75vh;
+    color: #700404;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
